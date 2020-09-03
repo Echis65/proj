@@ -43,10 +43,10 @@
     <header class="hero">
       <div class="banner">
         <h1 class="banner-title">Best deals</h1>
-        <button class="banner-btn">Shop Now</button>
+        <a href="#prod"><button class="banner-btn">Shop Now</button></a>
       </div>
     </header>
-    <section class="products">
+    <section class="products" id="prod">
       <div class="section-title">
         <h2>Our products</h2>
       </div>
@@ -69,11 +69,9 @@
           <button class="clear-cart banner-btn">clear cart</button>
         </div>
         <div class="cart-footer">
-          <a href="checkout.html"
-            ><button class="clear-cart banner-btn">
-              Proceed to Checkout
-            </button></a
-          >
+          <form action="./checkout.html">
+            <button class="checkout banner-btn">Proceed to Checkout</button>
+          </form>
         </div>
       </div>
     </div>
